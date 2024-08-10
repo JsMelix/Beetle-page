@@ -1,0 +1,25 @@
+.carousel-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    width: 80%;  /* Ajusta el ancho de la imagen al 80% del contenedor */
+    height: auto;
+    max-height: 400px;  /* Opcional: limita la altura máxima de las imágenes */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-image:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  }
+  

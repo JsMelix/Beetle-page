@@ -1,0 +1,30 @@
+.trailer-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000; /* Fondo negro para resaltar el video */
+    color: #fff; /* Texto en blanco */
+  }
+  
+  .trailer-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .trailer-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+  }
+  
+  .trailer-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
